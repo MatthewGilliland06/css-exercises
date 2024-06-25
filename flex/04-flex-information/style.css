@@ -1,10 +1,12 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  margin-left: 25%;
 }
 
 .title {
@@ -23,4 +25,16 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.box{
+  margin-top: 32px;
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+.cell{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  flex-wrap: wrap;
 }
